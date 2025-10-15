@@ -62,7 +62,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        installSplashScreen()
         enableEdgeToEdge(
             navigationBarStyle = SystemBarStyle.light(
                 Color.Transparent.hashCode(),
@@ -71,7 +71,7 @@ class MainActivity : ComponentActivity() {
         )
 
 
-        installSplashScreen()
+
 
 
         setContent {
